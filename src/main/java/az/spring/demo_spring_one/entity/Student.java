@@ -30,4 +30,6 @@ public class Student {
     @Column(name = "student_password")
     private String password;
 
+    private Integer schoolNumber;
+
 }
