@@ -27,4 +27,7 @@ public class Student {
     @Column(name = "student_age")
     private Integer age;
 
+    @Column(name = "student_password")
+    private String password;
+
 }
